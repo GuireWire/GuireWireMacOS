@@ -5,7 +5,7 @@ set -e
 REPO_URL="https://github.com/GuireWire/GuireWireMacOS.git"
 CLONE_DIR="$HOME/Projects/GuireWireMacOS"
 
-echo "⏳ Bootstrapping MacAutoSetup..."
+echo "⏳ Bootstrapping GuireWireMacOS..."
 
 # Step 1: Install Xcode Command Line Tools (includes Git)
 if ! command -v git &> /dev/null; then
