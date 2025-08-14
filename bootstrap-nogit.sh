@@ -2,8 +2,8 @@
 
 set -e
 
-REPO_URL="https://github.com/NLaundry/MacAutoSetup.git"
-CLONE_DIR="$HOME/Projects/MacAutoSetup"
+REPO_URL="https://github.com/GuireWire/GuireWireMacOS.git"
+CLONE_DIR="$HOME/Projects/GuireWireMacOS"
 
 echo "⏳ Bootstrapping MacAutoSetup..."
 
@@ -29,7 +29,7 @@ fi
 
 # Step 3: Clone the repo if it hasn't been cloned yet
 if [ ! -d "$CLONE_DIR" ]; then
-  echo "📥 Cloning MacAutoSetup into $CLONE_DIR..."
+  echo "📥 Cloning GuireWireMacOS into $CLONE_DIR..."
   mkdir -p "$(dirname "$CLONE_DIR")"
   git clone "$REPO_URL" "$CLONE_DIR"
 else
